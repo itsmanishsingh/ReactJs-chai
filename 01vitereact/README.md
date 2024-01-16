@@ -3,8 +3,10 @@ npm create vite@latest
 -Framework : React
 -Varient : JavaScript
 
-go inside the folder,
+------- If the folder doesnot contains node_modules,
+then npm install
 - npm install
+-----------------------------------------------------------
 
 to run 
 - npm run dev
