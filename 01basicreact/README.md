@@ -46,3 +46,4 @@ React's Strict mode helps developers identify and fix issues in their code. Stri
 ## Norms
 - Function name must be in Uppercase
 - Even the file name also in Uppercase
+- File extension can be ".js" or ".jsx"
