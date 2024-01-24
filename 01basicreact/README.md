@@ -34,3 +34,15 @@ Inside the Src folder
  - All the files are not required
  - index.js
  - App.js
+
+## "react-scripts"
+- It helps in injecting the "JS" file in the main "index.html" file
+- Check the launched page "view page source"
+
+## <React.StrictMode> </React.StrictMode>
+React's Strict mode helps developers identify and fix issues in their code. Strict mode runs in development mode and can be enabled by adding a component at the beginning of the application.
+
+
+## Norms
+- Function name must be in Uppercase
+- Even the file name also in Uppercase
