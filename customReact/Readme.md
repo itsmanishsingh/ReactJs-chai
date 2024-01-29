@@ -1,7 +1,6 @@
 function customRender(reactElement,container){
     /*  
         // Recursively using the setAttribute 
-        
         const domElement = document.createElement(reactElement.type)
         domElement.innerHTML = reactElement.children
         domElement.setAttribute('href' , reactElement.props.href)
@@ -9,7 +8,6 @@ function customRender(reactElement,container){
         container.appendChild(domElement)
     */
 
-    // Using for loop
     const domElement = document.createElement(reactElement.type)
     domElement.innerHTML = reactElement.children
     for(const prop in reactElement.props){
@@ -19,15 +17,5 @@ function customRender(reactElement,container){
     container.appendChild(domElement);
 }
 
-const  reactElement = {
-    type : 'a',
-    props :{
-        href : 'https://google.com',
-        target: '_black'
-    },
-    children :'Click me to visit google'
-}
-const mainContainer = document.querySelector('#root')
 
-
-customRender(reactElement , mainContainer)
+customRender(reactElement , mainContainer)      // customRender("requiredChanges" , "placeWhereToChange")
