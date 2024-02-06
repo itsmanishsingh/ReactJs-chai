@@ -13,7 +13,8 @@ Framework vs Library
         -For website       - For Mobile development
 
 Process to start a application 
-Ways to start a project 
+# Ways to start a project 
+- This way is also called as CRA(create react app)
 
 - npx create-react-app .    "Node package executor"
 - npm create-react-app .    "Node package manager"
